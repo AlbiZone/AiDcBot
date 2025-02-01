@@ -1,4 +1,4 @@
-# 🤖 DC-Zone Bot - Egy AI Kísérlet
+# 🤖 ADB - Egy AI Kísérlet
 
 ## 🌟 A Projekt Története
 
