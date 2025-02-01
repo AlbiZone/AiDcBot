@@ -1,8 +1,8 @@
-# ADB Bot
+# ADB Bot 🤖
 
-## A Projekt Története
+## A Projekt Története 📖
 
-Hey! 
+Hey! 👋
 
 Egy nap arra gondoltam: "Mi lenne, ha csinálnék egy Discord botot úgy, hogy gyakorlatilag fogalmam sincs a programozásról?" Ez a projekt ennek a kíváncsiságnak az eredménye.
 
@@ -15,7 +15,7 @@ Eredetileg azt hittem, hogy csak ennyi lesz:
 
 Az igazság viszont az, hogy ez a projekt sokkal többé vált. Ahelyett, hogy csak másoltam volna a kódot, elkezdtem érteni, hogy mi miért történik. Rengeteget tanultam a JavaScript-ről, a Discord botok működéséről és általában a programozásról.
 
-## Funkciók
+## Funkciók 🎮
 
 | Parancs | Leírás |
 |---------|---------|
@@ -24,7 +24,7 @@ Az igazság viszont az, hogy ez a projekt sokkal többé vált. Ahelyett, hogy c
 | `/help` | Parancsok és súgó |
 | `/ping` | Rendszer státusz |
 
-## Projekt Struktúra
+## Projekt Struktúra 📁
 
 ```
 dcbot/
@@ -47,7 +47,7 @@ dcbot/
         └── ping/
 ```
 
-## Telepítés
+## Telepítés 🚀
 
 ```bash
 # Projekt letöltése
@@ -63,7 +63,7 @@ npm install
 node index.js
 ```
 
-## Tanulási Folyamat
+## Tanulási Folyamat 📚
 
 Amit kezdőként tanultam a projekt során:
 
@@ -77,7 +77,7 @@ Amit kezdőként tanultam a projekt során:
 - Hibakeresés és javítás
 - Kód strukturálás
 
-## Fontos Figyelmeztetés
+## Fontos Figyelmeztetés ⚠️
 
 **⚠️ Kísérleti Projekt - Használat Saját Felelősségre!**
 
@@ -89,7 +89,7 @@ Ez a projekt jelenleg is aktív fejlesztés alatt áll. Rendszeresen érkeznek f
 4. A GitHub kezelését még tanulom, így a frissítések időnként késhetnek
 5. Nem ajánlott éles/production környezetben való használatra
 
-## Fejlesztési Státusz
+## Fejlesztési Státusz 🔧
 
 A projekt folyamatos fejlesztés alatt áll. Tervezett fejlesztések:
 - Új AI modellek integrációja
@@ -98,10 +98,10 @@ A projekt folyamatos fejlesztés alatt áll. Tervezett fejlesztések:
 - Kód optimalizáció
 - GitHub workflow beállítása (amint megtanulom a használatát)
 
-## Záró Gondolatok
+## Záró Gondolatok 💭
 
 Ez a projekt bizonyítja, hogy az AI segítségével akár programozói háttér nélkül is el lehet indulni a fejlesztés világában. Bár az eredmény nem tökéletes, a tanulási folyamat és a megszerzett tudás felbecsülhetetlen értékű.
 
 ---
 
-*Fejlesztés alatt álló projekt | AI asszisztált fejlesztés | v1.0.0-alpha*
+*Fejlesztés alatt álló projekt | AI asszisztált fejlesztés | v1.0.0-alpha* ✨
