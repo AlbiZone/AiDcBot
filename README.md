@@ -86,7 +86,6 @@ Ez a projekt jelenleg is aktív fejlesztés alatt áll. Rendszeresen érkeznek f
 1. A kódot nagyrészt AI generálta
 2. Nem ment át professzionális biztonsági auditáláson
 3. Nem követi az összes fejlesztési best practice-t
-4. A GitHub kezelését még tanulom, így a frissítések időnként késhetnek
 5. Nem ajánlott éles/production környezetben való használatra
 
 ## Fejlesztési Státusz 🔧
