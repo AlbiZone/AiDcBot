@@ -1,90 +1,107 @@
-# ADB Bot 🤖
+# ADB Bot
 
-Hey! 👋 
+## A Projekt Története
+
+Hey! 
 
 Egy nap arra gondoltam: "Mi lenne, ha csinálnék egy Discord botot úgy, hogy gyakorlatilag fogalmam sincs a programozásról?" Ez a projekt ennek a kíváncsiságnak az eredménye.
 
-## A Projekt Története 🤔
+Eredetileg azt hittem, hogy csak ennyi lesz:
+1. Megkérdezem az AI-t
+2. Kimásolom a kódot (Ctrl+C, Ctrl+V)
+3. Elindítom a szervert
+4. Letesztelem
+5. Kész!
 
-Egyáltalán nem értek a programozáshoz, viszont nagyon érdekel a mesterséges intelligencia világa. Úgy döntöttem, megpróbálok létrehozni egy Discord botot kizárólag AI segítségével, és közben dokumentálom a folyamatot.
+Az igazság viszont az, hogy ez a projekt sokkal többé vált. Ahelyett, hogy csak másoltam volna a kódot, elkezdtem érteni, hogy mi miért történik. Rengeteget tanultam a JavaScript-ről, a Discord botok működéséről és általában a programozásról.
 
-## A Bot Funkciói 🎮
+## Funkciók
 
-- AI asszisztens integrációja Gemini AI-val
-- Matematikai műveletek és számítások
-- Részletes help rendszer
-- Rendszerállapot monitorozás
+| Parancs | Leírás |
+|---------|---------|
+| `/ai`   | AI asszisztens (Gemini) |
+| `/math` | Matematikai számítások |
+| `/help` | Parancsok és súgó |
+| `/ping` | Rendszer státusz |
 
-## Projekt Struktúra 📁
+## Projekt Struktúra
 
 ```
 dcbot/
 │
-├── 🎯 index.js
-│   └── (A bot fő belépési pontja)
+├── index.js
+│   └── (Bot indítási pont)
 │
-├── ⚙️ config.json
-│   └── (Konfigurációs beállítások és API kulcsok)
+├── config.json
+│   └── (Beállítások és kulcsok)
 │
-├── 📁 handlers/
+├── handlers/
 │   └── commandHandler.js
-│       └── (Parancsok kezelése és végrehajtása)
+│       └── (Parancskezelő rendszer)
 │
-└── 📁 src/
+└── src/
     └── features/
         ├── ai/
-        │   └── (AI integráció és beszélgetés kezelése)
-        │
         ├── math/
-        │   └── (Matematikai műveletek feldolgozása)
-        │
         ├── help/
-        │   └── (Parancsok dokumentációja)
-        │
         └── ping/
-            └── (Rendszer válaszidő mérése)
 ```
 
-## Telepítési Útmutató 🎯
+## Telepítés
 
-1. Projekt letöltése
-2. Függőségek telepítése: `npm install`
-3. Config.json konfigurálása
-4. Bot indítása: `node index.js`
+```bash
+# Projekt letöltése
+git clone [repo link]
 
-## Elérhető Parancsok 🎮
+# Függőségek telepítése
+npm install
 
-| Parancs | Funkció |
-|---------|----------|
-| `/ai`   | AI asszisztenssel való kommunikáció |
-| `/math` | Matematikai műveletek végrehajtása |
-| `/help` | Részletes segítség a parancsokról |
-| `/ping` | Rendszer válaszidő ellenőrzése |
+# Config beállítása
+# (config.json szerkesztése)
 
-## Tanulási Folyamat 🎓
+# Bot indítása
+node index.js
+```
 
-A projekt során megtanultam:
-- JavaScript alapokat
-- Discord bot architektúrát
-- API-k használatát
-- Konfigurációk kezelését
-- Parancsok strukturálását
+## Tanulási Folyamat
 
-## ⚠️ Fontos Megjegyzés 
+Amit kezdőként tanultam a projekt során:
 
-Ez egy kísérleti projekt, amely elsősorban tanulási célokat szolgál. A kód nagy részét mesterséges intelligencia segítségével hoztam létre, ezért:
-- Nem ajánlott éles környezetben való használatra
-- A biztonsági szempontok nem lettek teljeskörűen tesztelve
-- A kód nem követi az összes fejlesztési best practice-t
+- JavaScript alapok megértése
+- Node.js működése
+- API-k használata
+- Config fájlok kezelése
+- Git alapok
+- Discord.js könyvtár használata
+- Aszinkron műveletek kezelése
+- Hibakeresés és javítás
+- Kód strukturálás
 
-## Projekt Háttér 🙋‍♂️
+## Fontos Figyelmeztetés
 
-A projekt egy kísérlet arra, hogy milyen mértékben lehet az AI-t használni fejlesztési segédeszközként, még akkor is, ha az ember nem rendelkezik programozói háttérrel. A folyamat során nem csak egy működő alkalmazás jött létre, hanem értékes tapasztalatokat is szereztem a modern fejlesztési módszerekről.
+**⚠️ Kísérleti Projekt - Használat Saját Felelősségre!**
 
-## Tanulságok 🌟
+Ez a projekt jelenleg is aktív fejlesztés alatt áll. Rendszeresen érkeznek frissítések és új funkciók, azonban:
 
-A projekt bebizonyította, hogy megfelelő eszközökkel és kíváncsisággal bárki képes lehet technikai projekteket megvalósítani. Az AI nem helyettesíti a programozói tudást, de kiváló segítség lehet a tanulási folyamatban.
+1. A kódot nagyrészt AI generálta
+2. Nem ment át professzionális biztonsági auditáláson
+3. Nem követi az összes fejlesztési best practice-t
+4. A GitHub kezelését még tanulom, így a frissítések időnként késhetnek
+5. Nem ajánlott éles/production környezetben való használatra
+
+## Fejlesztési Státusz
+
+A projekt folyamatos fejlesztés alatt áll. Tervezett fejlesztések:
+- Új AI modellek integrációja
+- További parancsok hozzáadása
+- Biztonsági fejlesztések
+- Kód optimalizáció
+- GitHub workflow beállítása (amint megtanulom a használatát)
+
+## Záró Gondolatok
+
+Ez a projekt bizonyítja, hogy az AI segítségével akár programozói háttér nélkül is el lehet indulni a fejlesztés világában. Bár az eredmény nem tökéletes, a tanulási folyamat és a megszerzett tudás felbecsülhetetlen értékű.
 
 ---
 
-*Ez a projekt egy AI-asszisztált tanulási folyamat eredménye.*
+*Fejlesztés alatt álló projekt | AI asszisztált fejlesztés | v1.0.0-alpha*
